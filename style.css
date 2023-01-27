@@ -1,0 +1,70 @@
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+h3 { 
+    position: relative;
+    top: 0;
+    left: 1;
+    padding: 10px;
+    color: white;
+    background-color: #343a40;
+}
+
+form,h1,.login {
+    text-align: center;
+}
+form {
+    padding: 10px;;
+    margin: 10px 0;
+}
+
+.navInput {
+    width: 500px;;
+}
+
+.navLink {
+    position: relative;
+    top: -50px;
+    left: 80px;
+    color: white;
+    padding: 5px;
+    font-size:small;
+    text-decoration: none;
+}
+.searchBar {
+    position: relative;
+    top: -70px;
+    left: 800px;
+    width: 200px;
+    padding: .5em;
+    border: transparent;
+    border-radius: 4px;
+  
+}
+
+.searchButton {
+    position: relative;
+    top: -70px;
+    left: 800px;
+    border-color: #ffc108;
+    border-radius: 4px;
+    padding: 5px;
+    color: #ffc108;
+    background-color: transparent;
+    box-shadow: none;
+    appearance: none;
+ 
+
+}
+
+.login {
+    border: transparent;
+    border-radius: 4px;
+    padding: .5em;
+    color: white;
+    background-color: #007bff;
+}
