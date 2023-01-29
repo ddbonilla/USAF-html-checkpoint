@@ -2,32 +2,96 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" defer></script>
+        <title>USAF Html Checkpoint</title>
     </head>
     <body>
-        <header>
-            <h3>GMDB</h3>
-            <nav>
-                <a href="" class="navLink">Home</a>
-                <a href=""class="navLink">Login</a>
-            </nav>
-            <div class="searchDiv">       
-                <input type="text" name="search" class="searchBar" placeholder="Search" >
-                <button class="searchButton">Search</button>
+        <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand ms-2">GMDB</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Login</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning me-2" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </header>
-        <main>
-            <h1>Login</h1>
-            <div class="wrapper">
-                <form action="">
-                    <label for="email">Email:</label><br>
-                    <input type="text" name="email" class="navInput"><br><br>
-                    <label for="password">Password:</label><br>
-                    <input type="text" name="password" class="navInput"><br><br>
-                    <button type="submit" class="login">Login</button>
-                </form>
-            </div>
+        </nav>
 
-        </main>
+        <div class="container-lg" id="formWrapper">
+            <div class="text-center">
+                <h2>Login</h2>
+            </div>
+            <div class="row justify-content-center mt-0 my-5">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="form-group mb-4">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control form-control-sm" id="email" aria-describedly="emailHelp">
+                        </div> 
+                        <div class="form-group mb-5">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control form-control-sm" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col-sm mb-4" id="Movie">
+                <img src="Img/starwarslastjedi.jpg" alt="Star Wars">
+              </div>
+              <div class="col-sm mb-4" id="Movie">
+                <img src="Img/bsg.jpg" alt="Battlestar Galactica">
+              </div>
+              <div class="col-sm mb-4">
+                <img src="Img/startrek.jpg" alt="Star Trek">
+              </div>
+              <div class="col-sm mb-4">
+                <img src="Img/star.jpg" alt="The Star">
+              </div>
+              <div class="col-sm mb-4" id="Movie">
+                <img src="Img/gladiator.jpg" alt="Gladiator">
+              </div>
+              <div class="col-sm mb-4" id="Movie">
+                <img src="Img/batman.jpg" alt="Batman The Dark Knight">
+              </div>
+              <div class="col-sm mb-4">
+                <img src="Img/mortal.jpg" alt="Mortal Kombat">
+              </div>
+              <div class="col-sm mb-4">
+                <img src="Img/aviator.jpg" alt="The Aviator">
+              </div>
+              <div class="col-sm mb-4">
+                <img src="Img/casa.jpg" alt="Casablanca">
+              </div>
+              <div class="col-sm mb-4">
+                <img src="Img/hunt.jpg" alt="The Hunt">
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
